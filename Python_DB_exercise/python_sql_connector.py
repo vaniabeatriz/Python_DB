@@ -38,5 +38,5 @@ print(result)
 # cursor.execute(command)
 # connection.commit()  # edit the database
 #
-# cursor.close()
-# connection.close()
+cursor.close()
+connection.close()
